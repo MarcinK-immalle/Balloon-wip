@@ -10,7 +10,7 @@ using System.Windows.Shapes;
 
 namespace WpfApp1
 {
-    class Baloon
+    class Balloon
     {
 
         private int x = 50;
@@ -18,7 +18,7 @@ namespace WpfApp1
         private int diameter = 20;
         private Ellipse ellipse;
 
-        public Baloon()
+        public Balloon()
         {
             CreateEllipse();
             UpdateEllipse();
@@ -27,6 +27,12 @@ namespace WpfApp1
         public void MoveRight(int xStep)
         {
             x = x + xStep;
+            UpdateEllipse();
+        }
+
+        public void MoveUp(int yStep)
+        {
+            y = y + yStep;
             UpdateEllipse();
         }
 
