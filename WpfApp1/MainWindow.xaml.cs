@@ -23,6 +23,9 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+
+            Balloon balloon1 = new Balloon();
+            
         }
     }
 }

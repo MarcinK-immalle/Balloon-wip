@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Canvas x:Name="MyCanvas" HorizontalAlignment="Left" Height="264" Margin="10,45,0,0" VerticalAlignment="Top" Width="497" Background="#FFE2E2E2"/>
+        <Button x:Name="MoveButton" Content="Move" HorizontalAlignment="Left" Height="19" Margin="10,13,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="GrowButton" Content="Grow" HorizontalAlignment="Left" Height="19" Margin="407,13,0,0" VerticalAlignment="Top" Width="100"/>
+
     </Grid>
 </Window>
