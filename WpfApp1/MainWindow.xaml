@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Canvas x:Name="MyCanvas" HorizontalAlignment="Left" Height="264" Margin="10,45,0,0" VerticalAlignment="Top" Width="497" Background="#FFE2E2E2"/>
-        <Button x:Name="MoveRightButton" Content="R" HorizontalAlignment="Left" Height="20" Margin="190,20,0,0" VerticalAlignment="Top" Width="20" Click="MoveButton_Click"/>
-        <Button x:Name="GrowButton" Content="Grow" HorizontalAlignment="Left" Height="20" Margin="407,13,0,0" VerticalAlignment="Top" Width="100" Click="GrowButton_Click"/>
-        <Button x:Name="ShrinkButton" Content="Shrink" HorizontalAlignment="Left" Height="20" Margin="292,13,0,0" VerticalAlignment="Top" Width="100" Click="ShrunkButton_Click"/>
-        <Button x:Name="MoveLeftButton" Content="L" HorizontalAlignment="Left" Height="20" Margin="140,20,0,0" VerticalAlignment="Top" Width="20" Click="MoveLeftButton_Click"/>
-        <Button x:Name="MoveDownButton" Content="D" HorizontalAlignment="Left" Height="20" Margin="165,0,0,274" VerticalAlignment="Bottom" Width="20" Click="MoveDownButton_Click"/>
-        <Button x:Name="MoveUpButton" Content="U" HorizontalAlignment="Left" Height="20" Margin="165,0,0,0" VerticalAlignment="Top" Width="20" Click="MoveUpButton_Click"/>
+        <Canvas x:Name="MyCanvas" HorizontalAlignment="Left" Height="249" Margin="10,60,0,0" VerticalAlignment="Top" Width="497" Background="#FFE2E2E2"/>
+        <Button x:Name="MoveRightButton" Content="R" HorizontalAlignment="Left" Height="20" Margin="378,20,0,0" VerticalAlignment="Top" Width="20" Click="MoveButton_Click"/>
+        <Button x:Name="GrowButton" Content="Grow" HorizontalAlignment="Left" Height="20" Margin="407,10,0,0" VerticalAlignment="Top" Width="100" Click="GrowButton_Click"/>
+        <Button x:Name="ShrinkButton" Content="Shrink" HorizontalAlignment="Left" Height="20" Margin="407,35,0,0" VerticalAlignment="Top" Width="100" Click="ShrunkButton_Click"/>
+        <Button x:Name="MoveLeftButton" Content="L" HorizontalAlignment="Left" Height="20" Margin="328,20,0,0" VerticalAlignment="Top" Width="20" Click="MoveLeftButton_Click"/>
+        <Button x:Name="MoveDownButton" Content="D" HorizontalAlignment="Left" Height="20" Margin="353,0,0,264" VerticalAlignment="Bottom" Width="20" Click="MoveDownButton_Click"/>
+        <Button x:Name="MoveUpButton" Content="U" HorizontalAlignment="Left" Height="20" Margin="353,10,0,0" VerticalAlignment="Top" Width="20" Click="MoveUpButton_Click"/>
 
     </Grid>
 </Window>
